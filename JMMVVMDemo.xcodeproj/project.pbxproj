@@ -47,7 +47,7 @@
 		0D031B820EB937F548FA1267 /* libPods-MvvmDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MvvmDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBB45A1BF7F89526DB9526F /* Pods-MvvmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvvmDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MvvmDemo/Pods-MvvmDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		23743932BDE71DE2FC924182 /* Pods-MvvmDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvvmDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MvvmDemoTests/Pods-MvvmDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		44ADC01D20A7C8B300DA6CE7 /* MvvmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MvvmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ADC01D20A7C8B300DA6CE7 /* JMMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ADC02020A7C8B300DA6CE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44ADC02120A7C8B300DA6CE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44ADC02320A7C8B300DA6CE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -57,10 +57,10 @@
 		44ADC02C20A7C8B300DA6CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44ADC02E20A7C8B300DA6CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44ADC02F20A7C8B300DA6CE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44ADC03520A7C8B300DA6CE7 /* MvvmDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvvmDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ADC03520A7C8B300DA6CE7 /* JMMVVMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMMVVMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ADC03920A7C8B300DA6CE7 /* MvvmDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MvvmDemoTests.m; sourceTree = "<group>"; };
 		44ADC03B20A7C8B300DA6CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44ADC04020A7C8B300DA6CE7 /* MvvmDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvvmDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ADC04020A7C8B300DA6CE7 /* JMMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ADC04420A7C8B300DA6CE7 /* MvvmDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MvvmDemoUITests.m; sourceTree = "<group>"; };
 		44ADC04620A7C8B300DA6CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44ADC09020A8988300DA6CE7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -126,9 +126,9 @@
 		44ADC01E20A7C8B300DA6CE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44ADC01D20A7C8B300DA6CE7 /* MvvmDemo.app */,
-				44ADC03520A7C8B300DA6CE7 /* MvvmDemoTests.xctest */,
-				44ADC04020A7C8B300DA6CE7 /* MvvmDemoUITests.xctest */,
+				44ADC01D20A7C8B300DA6CE7 /* JMMVVMDemo.app */,
+				44ADC03520A7C8B300DA6CE7 /* JMMVVMDemoTests.xctest */,
+				44ADC04020A7C8B300DA6CE7 /* JMMVVMDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,9 +294,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44ADC01C20A7C8B300DA6CE7 /* MvvmDemo */ = {
+		44ADC01C20A7C8B300DA6CE7 /* JMMVVMDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44ADC04920A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "MvvmDemo" */;
+			buildConfigurationList = 44ADC04920A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "JMMVVMDemo" */;
 			buildPhases = (
 				B378773EA1B314318D614C34 /* [CP] Check Pods Manifest.lock */,
 				44ADC01920A7C8B300DA6CE7 /* Sources */,
@@ -308,14 +308,14 @@
 			);
 			dependencies = (
 			);
-			name = MvvmDemo;
+			name = JMMVVMDemo;
 			productName = MvvmDemo;
-			productReference = 44ADC01D20A7C8B300DA6CE7 /* MvvmDemo.app */;
+			productReference = 44ADC01D20A7C8B300DA6CE7 /* JMMVVMDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44ADC03420A7C8B300DA6CE7 /* MvvmDemoTests */ = {
+		44ADC03420A7C8B300DA6CE7 /* JMMVVMDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44ADC04C20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "MvvmDemoTests" */;
+			buildConfigurationList = 44ADC04C20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "JMMVVMDemoTests" */;
 			buildPhases = (
 				1B8B72F57D6510B528FCA796 /* [CP] Check Pods Manifest.lock */,
 				44ADC03120A7C8B300DA6CE7 /* Sources */,
@@ -327,14 +327,14 @@
 			dependencies = (
 				44ADC03720A7C8B300DA6CE7 /* PBXTargetDependency */,
 			);
-			name = MvvmDemoTests;
+			name = JMMVVMDemoTests;
 			productName = MvvmDemoTests;
-			productReference = 44ADC03520A7C8B300DA6CE7 /* MvvmDemoTests.xctest */;
+			productReference = 44ADC03520A7C8B300DA6CE7 /* JMMVVMDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		44ADC03F20A7C8B300DA6CE7 /* MvvmDemoUITests */ = {
+		44ADC03F20A7C8B300DA6CE7 /* JMMVVMDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44ADC04F20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "MvvmDemoUITests" */;
+			buildConfigurationList = 44ADC04F20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "JMMVVMDemoUITests" */;
 			buildPhases = (
 				C7FAF06A13458C30BFC5E32A /* [CP] Check Pods Manifest.lock */,
 				44ADC03C20A7C8B300DA6CE7 /* Sources */,
@@ -346,9 +346,9 @@
 			dependencies = (
 				44ADC04220A7C8B300DA6CE7 /* PBXTargetDependency */,
 			);
-			name = MvvmDemoUITests;
+			name = JMMVVMDemoUITests;
 			productName = MvvmDemoUITests;
-			productReference = 44ADC04020A7C8B300DA6CE7 /* MvvmDemoUITests.xctest */;
+			productReference = 44ADC04020A7C8B300DA6CE7 /* JMMVVMDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -376,7 +376,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44ADC01820A7C8B300DA6CE7 /* Build configuration list for PBXProject "MvvmDemo" */;
+			buildConfigurationList = 44ADC01820A7C8B300DA6CE7 /* Build configuration list for PBXProject "JMMVVMDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -389,9 +389,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44ADC01C20A7C8B300DA6CE7 /* MvvmDemo */,
-				44ADC03420A7C8B300DA6CE7 /* MvvmDemoTests */,
-				44ADC03F20A7C8B300DA6CE7 /* MvvmDemoUITests */,
+				44ADC01C20A7C8B300DA6CE7 /* JMMVVMDemo */,
+				44ADC03420A7C8B300DA6CE7 /* JMMVVMDemoTests */,
+				44ADC03F20A7C8B300DA6CE7 /* JMMVVMDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -535,12 +535,12 @@
 /* Begin PBXTargetDependency section */
 		44ADC03720A7C8B300DA6CE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44ADC01C20A7C8B300DA6CE7 /* MvvmDemo */;
+			target = 44ADC01C20A7C8B300DA6CE7 /* JMMVVMDemo */;
 			targetProxy = 44ADC03620A7C8B300DA6CE7 /* PBXContainerItemProxy */;
 		};
 		44ADC04220A7C8B300DA6CE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44ADC01C20A7C8B300DA6CE7 /* MvvmDemo */;
+			target = 44ADC01C20A7C8B300DA6CE7 /* JMMVVMDemo */;
 			targetProxy = 44ADC04120A7C8B300DA6CE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -717,7 +717,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gome.cn.MvvmDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MvvmDemo.app/MvvmDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMMVVMDemo.app/JMMVVMDemo";
 			};
 			name = Debug;
 		};
@@ -733,7 +733,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gome.cn.MvvmDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MvvmDemo.app/MvvmDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMMVVMDemo.app/JMMVVMDemo";
 			};
 			name = Release;
 		};
@@ -770,7 +770,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44ADC01820A7C8B300DA6CE7 /* Build configuration list for PBXProject "MvvmDemo" */ = {
+		44ADC01820A7C8B300DA6CE7 /* Build configuration list for PBXProject "JMMVVMDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44ADC04720A7C8B300DA6CE7 /* Debug */,
@@ -779,7 +779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44ADC04920A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "MvvmDemo" */ = {
+		44ADC04920A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "JMMVVMDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44ADC04A20A7C8B300DA6CE7 /* Debug */,
@@ -788,7 +788,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44ADC04C20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "MvvmDemoTests" */ = {
+		44ADC04C20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "JMMVVMDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44ADC04D20A7C8B300DA6CE7 /* Debug */,
@@ -797,7 +797,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44ADC04F20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "MvvmDemoUITests" */ = {
+		44ADC04F20A7C8B300DA6CE7 /* Build configuration list for PBXNativeTarget "JMMVVMDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44ADC05020A7C8B300DA6CE7 /* Debug */,
