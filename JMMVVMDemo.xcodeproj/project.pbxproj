@@ -20,6 +20,7 @@
 		44ADC0A820A8988300DA6CE7 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ADC09E20A8988300DA6CE7 /* LoginViewModel.m */; };
 		44ADC0F920AA73BF00DA6CE7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ADC0F620AA73BF00DA6CE7 /* UIView+Frame.m */; };
 		44F23AE52374213B004854EA /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F23AE42374213B004854EA /* LoginView.m */; };
+		44F23AEA23742ECF004854EA /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F23AE623742ECF004854EA /* UIView+Toast.m */; };
 		5EA2CA634425AD753C3171E3 /* libPods-MvvmDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF0710CB9E4A60F33A0231F /* libPods-MvvmDemoUITests.a */; };
 		BEB4B6A3850C5416C9A2D625 /* libPods-MvvmDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C339E5C7058CEB3AC792C11 /* libPods-MvvmDemoTests.a */; };
 		D8547BEA0AA01A7B3509B253 /* libPods-MvvmDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D031B820EB937F548FA1267 /* libPods-MvvmDemo.a */; };
@@ -76,6 +77,8 @@
 		44ADC10220AA797400DA6CE7 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		44F23AE32374213B004854EA /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		44F23AE42374213B004854EA /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		44F23AE623742ECF004854EA /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		44F23AE823742ECF004854EA /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		6313889262D46A2C553F6B5F /* Pods-MvvmDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvvmDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MvvmDemo/Pods-MvvmDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6AF0710CB9E4A60F33A0231F /* libPods-MvvmDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MvvmDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		732C40364A42ADD98874E189 /* Pods-MvvmDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvvmDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MvvmDemoUITests/Pods-MvvmDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 		44ADC0F420AA73BF00DA6CE7 /* Cagegory */ = {
 			isa = PBXGroup;
 			children = (
+				44F23AE823742ECF004854EA /* UIView+Toast.h */,
+				44F23AE623742ECF004854EA /* UIView+Toast.m */,
 				44ADC0F520AA73BF00DA6CE7 /* UIView+Frame.h */,
 				44ADC0F620AA73BF00DA6CE7 /* UIView+Frame.m */,
 			);
@@ -503,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F23AEA23742ECF004854EA /* UIView+Toast.m in Sources */,
 				44ADC02520A7C8B300DA6CE7 /* ViewController.m in Sources */,
 				44ADC03020A7C8B300DA6CE7 /* main.m in Sources */,
 				44F23AE52374213B004854EA /* LoginView.m in Sources */,

@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class LoginViewModel;
 
 @interface LoginView : UIView
+@property (nonatomic, strong)  LoginViewModel *viewModel;
 
 @end
 
