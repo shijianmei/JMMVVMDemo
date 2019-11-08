@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <Bugly/Bugly.h>
+
 
 @interface AppDelegate ()
 
@@ -17,14 +19,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+//    [Bugly startWithAppId:@"68fcf912c1"];
+
+    BuglyConfig * config = [[BuglyConfig alloc] init];
+        // 设置自定义日志上报的级别，默认不上报自定义日志
+    config.reportLogLevel = BuglyLogLevelWarn;
+    
+    [Bugly startWithAppId:@"68fcf912c1" config:config];
+    
     UIWindow *window                    = [[UIApplication sharedApplication].delegate window];
     ViewController *vc = [[ViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
 
     self.window.backgroundColor = [UIColor whiteColor];
-
     window.rootViewController           = nav;
+    
+    
     return YES;
 }
 

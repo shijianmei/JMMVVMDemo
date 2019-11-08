@@ -228,7 +228,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6C5FF2C3-69B5-4D7E-897B-1C34798C7C84"
+            uuid = "A55362C6-CF7E-41D2-9E34-A8FF93A3E773"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -244,15 +244,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A59F5D69-13A4-4256-931F-FF1617DD1A07"
+            uuid = "8F0C5409-064A-4DC4-A875-08BDAB354E46"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MvvmDemo/Moduls/Login/View/LoginView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "-bindModel"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BD56703-81E9-4717-B236-839668B778F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemo/Moduls/Login/View/LoginView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "-bindModel"
             landmarkType = "7">
          </BreakpointContent>

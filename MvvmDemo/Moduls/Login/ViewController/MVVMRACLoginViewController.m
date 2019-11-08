@@ -43,6 +43,11 @@
 - (void)createSubViews {
     self.LoginView.frame = self.view.bounds;
     [self.view addSubview:self.LoginView];
+    @weakify(self);
+    self.LoginView.loginCompletion = ^(id  _Nonnull result) {
+        @strongify(self);
+        [self goToLoginSuccessVC];
+    };
 }
 
 -(void)goToLoginSuccessVC {

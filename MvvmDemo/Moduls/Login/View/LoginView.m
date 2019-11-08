@@ -9,6 +9,7 @@
 #import "LoginView.h"
 #import "LoginViewModel.h"
 #import "UIView+Toast.h"
+#import "UIView+Loading.h"
 
 #define ScreenSize [UIScreen mainScreen].bounds.size
 @interface LoginView ()
@@ -98,16 +99,20 @@
         self.loginFailureLabel.hidden = success;
         [self bw_makeToast:@"登录失败!"];
         NSLog(@"登录失败");
-            // 跳转一般写在控制器里
+            // 交互逻辑一般写在控制器里
         if (success) {
-//            [self goToLoginSuccessVC];
+            if (self.loginCompletion) {
+                self.loginCompletion(@(success));
+            }
         }
     }];
     [[self.viewModel.loginCommand.executing skip:1] subscribeNext:^(id x) {
         if ([x boolValue] == YES) {
             NSLog(@"正在执行，显示loading");
+            [self bw_showLoad];
         } else {
             NSLog(@"执行完成，隐藏loading");
+            [self bw_hiddenLoading];
         }
     }];
     [self.viewModel.connectionErrors subscribeNext:^(NSError *error) {

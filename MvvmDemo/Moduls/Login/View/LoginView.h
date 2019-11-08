@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LoginView : UIView
 @property (nonatomic, strong)  LoginViewModel *viewModel;
 
+@property (nonatomic, copy)  void(^loginCompletion)(id result);
+
 @end
 
 NS_ASSUME_NONNULL_END

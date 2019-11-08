@@ -3,7 +3,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 
-target 'MvvmDemo' do
+target 'JMMVVMDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
@@ -13,15 +13,6 @@ target 'MvvmDemo' do
   pod 'SDWebImage', '~> 3.7.5'
   pod 'JMModel'
   pod 'Masonry'
-
-  target 'MvvmDemoTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'MvvmDemoUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'Bugly'
 
 end
