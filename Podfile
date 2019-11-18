@@ -10,9 +10,10 @@ target 'JMMVVMDemo' do
   # Pods for MvvmDemo
   pod 'ReactiveCocoa', '~> 2.5'
   pod 'MJRefresh', '~> 3.1.0'
-  pod 'SDWebImage', '~> 3.7.5'
+  pod 'SDWebImage'
   pod 'JMModel'
   pod 'Masonry'
   pod 'Bugly'
-
+  pod 'YYModel'
+  pod 'FXBlurView'
 end

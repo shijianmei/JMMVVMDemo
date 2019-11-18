@@ -17,35 +17,6 @@
 
 
 /* ****************************************************************************************************************** */
-/** DEBUG LOG **/
-#ifdef DEBUG
-
-#define DLog( s, ... ) NSLog( @"< %@:(%d) > %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
-
-#else
-
-#define DLog( s, ... )
-
-#endif
-
-
-/** DEBUG RELEASE **/
-#if DEBUG
-
-#define MCRelease(x)            [x release]
-
-#else
-
-#define MCRelease(x)            [x release], x = nil
-
-#endif
-
-
-/** NIL RELEASE **/
-#define NILRelease(x)           [x release], x = nil
-
-
-/* ****************************************************************************************************************** */
 #pragma mark - Frame (宏 x, y, width, height)
 
 // App Frame

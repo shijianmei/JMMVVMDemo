@@ -1,5 +1,6 @@
 PODS:
   - Bugly (2.5.0)
+  - FXBlurView (1.6.4)
   - JMModel (1.0.0)
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.3)
@@ -13,32 +14,39 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - Bugly
+  - FXBlurView
   - JMModel
   - Masonry
   - MJRefresh (~> 3.1.0)
   - ReactiveCocoa (~> 2.5)
-  - SDWebImage (~> 3.7.5)
+  - SDWebImage
+  - YYModel
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Bugly
+    - FXBlurView
     - JMModel
     - Masonry
     - MJRefresh
     - ReactiveCocoa
     - SDWebImage
+    - YYModel
 
 SPEC CHECKSUMS:
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   JMModel: 17bcd210964788dc1bd96231d8ad5b2a74ff008b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ddb121c7311561200968cf5909338d3b19dad0bc
+PODFILE CHECKSUM: 4f993f90def1db532a435917a4fcc8eb141980a3
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4
